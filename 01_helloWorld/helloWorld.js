@@ -1,5 +1,9 @@
 const helloWorld = function() {
-  return ''
+  return 'Hello, World!'
 };
 
-module.exports = helloWorld;
+const ciaoMondo = function() {
+  return 'Ciao Mondo!'
+};
+
+module.exports = ciaoMondo;
