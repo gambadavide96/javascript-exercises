@@ -9,9 +9,12 @@ const reverseString = function(stringtoReverse) {
 
   return result
 
-  
+
   /* Soluzione compatta:
-    string.split("").reverse().join("");
+    const reverseString = function (string) {
+      return string.split("").reverse().join("");
+    };
+
    */
 
 };
