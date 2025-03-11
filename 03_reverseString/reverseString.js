@@ -1,4 +1,18 @@
-const reverseString = function() {
+const reverseString = function(stringtoReverse) {
+
+  let result = ''
+  const len = stringtoReverse.length
+
+  for (let i = len - 1; i > -1; i--){
+    result += stringtoReverse.charAt(i)
+  }
+
+  return result
+
+  
+  /* Soluzione compatta:
+    string.split("").reverse().join("");
+   */
 
 };
 
